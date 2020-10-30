@@ -4,12 +4,7 @@ pipeline {
     stage('Testing') {
       steps {
         echo 'Hi'
-      }
-    }
-
-    stage('NextStage') {
-      steps {
-        echo 'Next Step'
+        echo 'Hello'
       }
     }
 
